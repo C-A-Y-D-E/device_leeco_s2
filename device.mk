@@ -72,7 +72,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audiod \
+    libtinycompress \
     audio.a2dp.default \
     audio.r_submix.default \
     audio.usb.default \
@@ -81,9 +81,9 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcomvoiceprocessingdescriptors \
-    libtinyalsa \
-    libtinycompress \
-    libtinyxml \
+    audiod
+    
+
     tinymix
 
 PRODUCT_PACKAGES += \
