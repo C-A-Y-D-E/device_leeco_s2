@@ -301,13 +301,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
 
-# WiFi HAL
-PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service
-
-# USB HAL
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service
 
 
 # WCNSS
