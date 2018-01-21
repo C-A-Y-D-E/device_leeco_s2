@@ -81,9 +81,7 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcomvoiceprocessingdescriptors \
-    audiod
-    
-
+    audiod \
     tinymix
 
 PRODUCT_PACKAGES += \
